@@ -1,9 +1,8 @@
 ﻿import re
-from srivi.settings import STATIC_ROOT
 
 class EcsStemmer:
     def __init__(self):
-        self.rootWords = open("%s/qas/data/rootwords.txt" % STATIC_ROOT).read()
+        self.rootWords = open("rootwords.txt").read()
 
     def stemm(self, words):
         result = []

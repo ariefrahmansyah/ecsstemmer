@@ -1,0 +1,5 @@
+setup.py
+ecsstemmer.egg-info/PKG-INFO
+ecsstemmer.egg-info/SOURCES.txt
+ecsstemmer.egg-info/dependency_links.txt
+ecsstemmer.egg-info/top_level.txt

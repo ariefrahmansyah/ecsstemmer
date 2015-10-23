@@ -5,5 +5,10 @@ setup(
 	author='Arief Rahmansyah',
 	author_email='ariefrahmansyah@hotmail.com',
 	description='ECS Stemmer for Indonesian Language',
-	py_modules=['my_package']
+	py_modules=['ecsstemmer'],
+	include_package_data = True,
+    package_data = {
+        '': ['rootwords.txt'],
+        'static': ['rootwords.txt'],
+    }
 )
